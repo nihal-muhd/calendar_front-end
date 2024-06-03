@@ -1,0 +1,19 @@
+.days-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  height: 30px;
+}
+.day {
+  width: 14.2%;
+  text-align: center;
+  color: white;
+  background-color: #213649;
+  border-radius: 5px;
+  line-height: 30px;
+  height: 100%;
+}
+.day.weekend {
+  background-color: #7ea7cd;
+  color: white;
+}

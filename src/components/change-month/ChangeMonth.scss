@@ -1,0 +1,23 @@
+.calendar-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.btn {
+  height: 30px;
+  width: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-color: #ebeffd;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn.next {
+  background-image: url("../../assets/next.svg");
+}
+.btn.prev {
+  background-image: url("../../assets/next.svg");
+  transform: rotate(180deg);
+}
